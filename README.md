@@ -30,11 +30,11 @@ Questo script:
 Questa versione consente di personalizzare il nome del cliente e la password del file .pfx tramite parametri da linea di comando
 ``` bash
 chmod +x generate_cert_v2.sh
-./generate_cert_v2.sh <nome_cliente> <password_pfx>
+./generate_cert_v2.sh <nome> <password>
 ```
 Esempio:
 ``` bash
-./generate_cert_v2.sh florim changeit
+./generate_cert_v2.sh sacmi changeit
 ```
 
 ## 2. Integrazione nel sistema del cliente

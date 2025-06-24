@@ -1,7 +1,7 @@
 # OpenSSL-Self-Signed-Certificates
 
 **Obiettivo**: Realizzare un sistema che:
-- Generi certificati self-signed con parametri standard SACMI
+- Generi certificati Self-Signed con parametri standard SACMI
 - Permetta di esportarli in un formato .pfx (per Kestrel) e .crt/.key (per altri usi)
 - Fornisca istruzioni o script per l'integrazione nei sistemi del cliente
 - Sia riutilizzabile per generare altri certificati in futuro anche per altri clienti

@@ -6,7 +6,7 @@
 - Fornisca istruzioni o script per l'integrazione nei sistemi del cliente
 - Sia riutilizzabile per generare altri certificati in futuro anche per altri clienti
 
-## 1. Generare i certificati
+## 1. Generare i certificati (versione base)
 Per prima cosa rendere eseguibile lo script generate_cert.sh
 
 ``` bash
@@ -25,6 +25,17 @@ Questo script:
 - **sacmi.crt** → certificato pubblico
 - **sacmi.pfx** → certificato + chiave per Kestrel (con password changeit)
 - Usa il file **sacmi.conf** per applicare le policy SACMI
+
+## 1. Generare i certificati (versione avanzata)
+Questa versione consente di personalizzare il nome del cliente e la password del file .pfx tramite parametri da linea di comando
+``` bash
+chmod +x generate_cert_v2.sh
+./generate_cert_v2.sh <nome_cliente> <password_pfx>
+```
+Esempio:
+``` bash
+./generate_cert_v2.sh florim changeit
+```
 
 ## 2. Integrazione nel sistema del cliente
 Per Kestrel, nel file appsettings.json del cliente:

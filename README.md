@@ -27,7 +27,7 @@ Questo script:
 - **sacmi.pfx** → certificato + chiave per Kestrel (con password changeit)
 - Usa il file **sacmi.conf** per applicare le policy SACMI
 
-## Versione avanzata con password parametrizzata
+## Versione con password parametrizzata
 Questa versione consente di personalizzare il nome del cliente e la password del file .pfx tramite parametri da linea di comando
 ``` bash
 chmod +x generate_cert_v2.sh

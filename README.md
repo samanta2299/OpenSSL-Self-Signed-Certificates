@@ -87,13 +87,9 @@ In output verrà visualizzato il messaggio: "Server HTTPS attivo su https://loca
 4. Apparirà un pop-up con il messaggio "L'applicazione in esecuzione sulla porta 8443 è disponibile.", premere su "Rendi pubblica"
 5. Spostarsi nella sezione "Porte" nel menù di VScode, a destra di "Terminale", e seguire il link sotto la voce elenco "Indirizzo inoltrato". 
 6. Il sito ha l'obiettivo di verificare che il certificato SSL funzioni correttamente, in particolare:
-   - Il server HTTPS usa il certificato sacmi.crt e la chiave sacmi.key
-   - Il browser stabilisce una connessione sicura (TLS) con quel certificato
-   - Se è possibile visualizzare la pagina (anche con un avviso di sicurezza), significa che:
-     - Il certificato è valido
-     - La chiave è corretta
-     - Il certificato è utilizzabile in un'applicazione reale (come Kestrel)
-
-
-
-
+- Il server HTTPS usa il certificato sacmi.crt e la chiave sacmi.key
+- Il browser stabilisce una connessione sicura (TLS) con quel certificato
+- Se è possibile visualizzare la pagina (anche con un avviso di sicurezza), significa che:
+  - Il certificato è valido
+  - La chiave è corretta
+  - Il certificato è utilizzabile in un'applicazione reale (come Kestrel)

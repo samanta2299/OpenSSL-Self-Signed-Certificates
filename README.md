@@ -6,7 +6,7 @@
 - Fornisca istruzioni o script per l'integrazione nei sistemi del cliente
 - Sia riutilizzabile per generare altri certificati in futuro anche per altri clienti
 
-## 1. Generare i certificati (versione base)
+## 1. Generare i certificati (versione base con password hardcoded)
 Per prima cosa rendere eseguibile lo script generate_cert.sh
 
 ``` bash
@@ -26,7 +26,7 @@ Questo script:
 - **sacmi.pfx** → certificato + chiave per Kestrel (con password changeit)
 - Usa il file **sacmi.conf** per applicare le policy SACMI
 
-## 1. Generare i certificati (versione avanzata)
+## 1. Generare i certificati (versione avanzata con password parametrizzata)
 Questa versione consente di personalizzare il nome del cliente e la password del file .pfx tramite parametri da linea di comando
 ``` bash
 chmod +x generate_cert_v2.sh

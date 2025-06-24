@@ -56,7 +56,9 @@ necessario aggiornare il percorso nel file `appsettings.json` di conseguenza
 
 ## 3. Domain Name System (DNS) e Fully Qualified Domain Name (FQDN)
 Il cliente deve scegliere un FQDN (Come definito nel file `sacmi.conf` → DNS.1 = *.sacmi.com, permette l'uso di qualsiasi sottodominio di sacmi.com, es. demo.sacmi.com)
+
 Poi deve configurare il DNS per farlo puntare all'IP del server dove già gira l'applicazione
+
 Quindi usare quel FQDN per accedere al sito, così il certificato sarà considerato valido
 
 ## 4. Personalizzazione

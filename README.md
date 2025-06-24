@@ -61,15 +61,7 @@ Poi deve configurare il DNS per farlo puntare all'IP del server dove già gira l
 
 Quindi usare quel FQDN per accedere al sito, così il certificato sarà considerato valido
 
-## 4. Personalizzazione
-
-Per riutilizzare la soluzione per altri clienti, modificare il file di configurazione: `sacmi.conf` (modificare i campi CN, O, etc.) ed eseguire nuovamente:
-``` bash
-./generate_cert.sh
-```
-per generare un nuovo certificato personalizzato
-
-## 5. Testing su Github codespaces (facoltativo)
+## 4. Testing su Github codespaces (facoltativo)
 1. Rendere eseguibile lo script generate_cert.sh
 
 ``` bash
